@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_marginHorizontal="10dp"
+    android:id="@+id/cardColor"
+    android:layout_marginVertical="5dp"
+    android:layout_width="match_parent"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/LogColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/green">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/LogName"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/LogIDn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/LogTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="10sp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textAlignment="textEnd"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

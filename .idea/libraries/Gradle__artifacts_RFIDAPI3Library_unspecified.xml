@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:RFIDAPI3Library:unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/RFIDAPI3Library/build/.transforms/b920cfd0b81f1c0fd9303bfe31d19f49/jetified-API3_LIB-release-2.0.2.114/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/RFIDAPI3Library/build/.transforms/b920cfd0b81f1c0fd9303bfe31d19f49/jetified-API3_LIB-release-2.0.2.114/res" />
+      <root url="file://$PROJECT_DIR$/RFIDAPI3Library/build/.transforms/b920cfd0b81f1c0fd9303bfe31d19f49/jetified-API3_LIB-release-2.0.2.114/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
